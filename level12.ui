@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>level12</class>
+ <widget class="QWidget" name="level12">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>840</width>
+    <height>470</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>840</width>
+    <height>470</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>840</width>
+    <height>470</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget
+{
+	background-color:rgb(0, 0, 0);
+}
+QRadioButton
+{
+    background-color:transparent;
+    border: none;
+    border-radius : 0px;
+}
+</string>
+  </property>
+  <widget class="QRadioButton" name="q12_1">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>274</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Next">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>225</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Utsaah</family>
+     <pointsize>50</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color: transparent;
+    border: none;
+    border-radius : 0px;
+    color: rgb(255, 255, 255);
+	padding: 5px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>&gt;</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="q12_6">
+   <property name="geometry">
+    <rect>
+     <x>361</x>
+     <y>353</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="q12_3">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>274</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="q12_2">
+   <property name="geometry">
+    <rect>
+     <x>363</x>
+     <y>274</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_a12">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>35</y>
+     <width>390</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="levelNo">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Utsaah</family>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+    background-color: rgb(238, 238, 238);
+    border: rgb(255, 255, 255);
+    border-radius : 3px;
+   
+	
+
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="lineWidth">
+    <number>4</number>
+   </property>
+   <property name="text">
+    <string>12</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="q12_5">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>352</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="q12_7">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>352</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="q12_4">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>274</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="q12_8">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>352</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei UI Light</family>
+     <pointsize>36</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+    background-color:rgb(33, 33, 33);
+    border: none;
+    border-radius : 5px;
+    color: rgb(255, 255, 255);
+	padding: 5px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>x</string>
+   </property>
+  </widget>
+  <zorder>label_a12</zorder>
+  <zorder>q12_1</zorder>
+  <zorder>Next</zorder>
+  <zorder>q12_6</zorder>
+  <zorder>q12_3</zorder>
+  <zorder>q12_2</zorder>
+  <zorder>levelNo</zorder>
+  <zorder>q12_5</zorder>
+  <zorder>q12_7</zorder>
+  <zorder>q12_4</zorder>
+  <zorder>q12_8</zorder>
+  <zorder>quit</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
